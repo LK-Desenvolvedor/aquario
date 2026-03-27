@@ -1,0 +1,41 @@
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            background: #0a2f44;
+            overflow: hidden;
+            font-family: sans-serif;
+        }
+
+        canvas {
+            display: block;
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: linear-gradient(135deg, #1a6d8f, #0a3b4f);
+        }
+
+        button {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            padding: 10px 20px;
+            background: rgba(0,0,0,0.6);
+            color: white;
+            border: none;
+            border-radius: 30px;
+            font-size: 16px;
+            cursor: pointer;
+            z-index: 9999;
+            backdrop-filter: blur(5px);
+            transition: 0.3s;
+        }
+
+        button:hover {
+            background: rgba(0,0,0,0.8);
+        }
